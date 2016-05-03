@@ -1,7 +1,3 @@
-echo '---';
-pwd
-echo '---';
-
 if [ $1 = "hannanum" ]; then
     echo 'hannanum start'
     cd /usr/local/lib/node_modules/knlp-toolket/deploy/nlp-tool/hannanum

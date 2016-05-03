@@ -7,13 +7,17 @@ var m = function (opts) {
     var done = function () {
     };
     if (opts.done) done = opts.done;
+
+    content = content.replace(/[^(가-힣ㄱ-ㅎa-zA-Z0-9)]/gi, ' ');
     content = content.substring(0, content.length > 12000 ? 12000 : content.length);
+    
     http.post('http://' + host + ':' + port + '/extract'
         , {content: content}
         , function (err, res, body) {
             body = decodeURI(body);
             body = body.replace(/%3A/gim, ':');
             body = body.replace(/%2C/gim, ',');
+            body = JSON.parse(body);
             done(body);
         }
     );

@@ -1,13 +1,13 @@
 {
-  "name": "knlp-toolket",
-  "version": "0.1.2",
+  "name": "knlp-toolkit",
+  "version": "0.1.4",
   "description": "node.js module for extracting words from content using kkma(꼬꼬마 형태소 분석기), hannanum(한나눔 형태소 분석기) ",
   "main": "index.js",
   "dependencies": {
     "request": "^2.72.0"
   },
   "bin": {
-    "knlp-toolket": "cli.js"
+    "knlp-toolkit": "cli.js"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/proin/knlp-toolket.git"
+    "url": "git+https://github.com/proin/knlp-toolkit.git"
   },
   "keywords": [
     "nlp",
@@ -24,7 +24,7 @@
   "author": "Yeonghun Chae <proin@proinlab.com> (http://proinlab.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/proin/knlp-toolket/issues"
+    "url": "https://github.com/proin/knlp-toolkit/issues"
   },
-  "homepage": "https://github.com/proin/knlp-toolket#readme"
+  "homepage": "https://github.com/proin/knlp-toolkit#readme"
 }
