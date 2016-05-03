@@ -1,17 +1,30 @@
 {
   "name": "knlp-toolket",
-  "version": "0.0.1",
-  "description": "kkma, hannaum tool",
+  "version": "0.1.1",
+  "description": "node.js module for extracting words from content using kkma(꼬꼬마 형태소 분석기), hannanum(한나눔 형태소 분석기) ",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "request": "^2.72.0"
   },
   "bin": {
     "knlp-toolket": "cli.js"
   },
-  "author": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proin/knlp-toolket.git"
+  },
+  "keywords": [
+    "nlp",
+    "korean"
+  ],
+  "author": "Yeonghun Chae <proin@proinlab.com> (http://proinlab.com)",
   "license": "ISC",
-  "dependencies": {
-    "request": "^2.72.0"
-  }
+  "bugs": {
+    "url": "https://github.com/proin/knlp-toolket/issues"
+  },
+  "homepage": "https://github.com/proin/knlp-toolket#readme"
 }
