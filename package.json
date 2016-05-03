@@ -1,6 +1,6 @@
 {
   "name": "knlp-toolket",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "node.js module for extracting words from content using kkma(꼬꼬마 형태소 분석기), hannanum(한나눔 형태소 분석기) ",
   "main": "index.js",
   "dependencies": {
