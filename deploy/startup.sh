@@ -1,3 +1,7 @@
+echo '---';
+pwd
+echo '---';
+
 if [ $1 = "hannanum" ]; then
     echo 'hannanum start'
     cd ./deploy/nlp-tool/hannanum
